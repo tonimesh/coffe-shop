@@ -17,6 +17,9 @@
   .qoute{
     font-size: 16px !important;
   }
+  .card-view img{
+    width:250px !important;
+  }
 }
 body {
   margin: 0px;
