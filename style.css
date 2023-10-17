@@ -1,0 +1,114 @@
+@media screen and (max-width: 600px) {
+  .flex{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-view{
+    width: 100% !important;
+  }
+  .coffe-header{
+    overflow: hidden;
+  }
+  .site-content{
+    overflow: hidden;
+  }
+  .qoute{
+    font-size: 16px !important;
+  }
+}
+body {
+  margin: 0px;
+}
+.coffe-header {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: #0a2d42;
+  z-index: 100;
+}
+.div-logo {
+  height: 100%;
+  text-align: center;
+  margin: 10px;
+  float: left;
+}
+.logo-text {
+  display: block;
+  font-family: "helvetica Neue";
+  font-weight: bold;
+  color: white;
+}
+.coffe-nav {
+  float: right;
+  height: 100%;
+}
+.coffe-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "helvetica Neue";
+  padding-right: 20px;
+  padding-top: 12%;
+  display: inline-block;
+}
+.coffe-nav a:hover {
+  color: black;
+}
+.site-content {
+  position: absolute;
+  top: 72px;
+  width: 100%;
+}
+.image-container {
+  background-image: url("background-image.jpg");
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.qoute {
+  font-family: "helvetica Neue";
+  font-weight: 900;
+  font-size: 40px;
+  position: relative;
+  top: 10%;
+  background-image: url(https://st3.depositphotos.com/1008404/14802/i/450/depositphotos_148028267-stock-photo-abstract-color-background.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent;
+}
+.card-list {
+  width: 100%;
+}
+#product {
+  text-align: center;
+}
+.card-view {
+  width: 22%;
+  padding: 1.5%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.card-view img {
+  width: 100%;
+}
+.card-view:hover {
+  box-shadow: 0 0 20px 0px rgba(223, 2, 2, 0.2);
+}
+.order-section {
+  width: 100%;
+}
+#order {
+  text-align: center;
+  margin-top: 20px;
+}
+.or {
+  margin-top: 20px;
+}
