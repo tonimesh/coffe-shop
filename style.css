@@ -76,6 +76,7 @@ body {
 
 .qoute {
   font-family: "helvetica Neue";
+  letter-spacing: 2px;
   font-weight: 900;
   font-size: 40px;
   position: relative;
